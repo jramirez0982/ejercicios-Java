@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class operarconnumeros{
+
+  public static void main(String args[]){
+  
+  int numero = 0;
+  Scanner entrada = new Scanner(System.in);
+
+  system.out.println("");
+  system.out.print("POR FAVOR DIGITE UN NUMERO:  ");
+  numero = entrada.nextInt();
+
+  system.out.println("El doble del numero ingresado es " + 2*numero);
+  system.out.println("El triple del numero ingresado es " + 3*numero);
+ }
+}

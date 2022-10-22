@@ -1,0 +1,23 @@
+// Programa que lea una cantidad de grados centígrados y la pase a grados Fahrenheit.
+//La fórmula correspondiente para pasar de grados centígrados a fahrenheit es:
+//F = 32 + ( 9 * C / 5)
+
+import java.util.Scanner;
+
+public class conversorGrados{
+
+  public static void main(String args[]){
+  
+  double gradoCent = 0, gradoFaren = 0;
+  Scanner entrada = new Scanner(System.in);
+
+  System.out.println("");
+  System.out.println("INGRESE EL NUMERO DE GRADOS CENTIGRADOS A CONVERTIR");
+  gradoCent = entrada.nextDouble();
+
+  gradoFaren = 32 + (9*gradoCent/5);
+
+  System.out.println(gradoCent + "GRADOS CENTIGRADOS ES IGUAL A " + gradoFaren + "GRADOS FARENHEIT");
+   
+ }
+}
