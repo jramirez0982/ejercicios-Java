@@ -9,7 +9,8 @@ public class pitagoras{
   double cateto1 = 0, cateto2 = 0, hipotenusa = 0;
   Scanner entrada = new Scanner(System.in);
 
-  System.out.println("");
+  System.out.println("******************************************************************")
+  System.out.println("BIENVENIDOS AL PROGRAMA DE APLICACION TEOREMA DE PITAGORAS");
   System.out.println("INSERTE EL VALOR DEL CATETO No 1");
   cateto1 = entrada.nextDouble();
 
